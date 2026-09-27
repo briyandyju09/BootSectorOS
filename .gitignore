@@ -1,0 +1,4 @@
+# Assembled boot images / build artifacts
+*.bin
+*.o
+*.img
