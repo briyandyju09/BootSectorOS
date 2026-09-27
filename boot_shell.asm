@@ -171,5 +171,5 @@ cmd_shutdown db 'shutdown', 0
 ; Boot signature (end of boot sector)
 ; --------------------------------------------
 
-times 534 - ($ - $$) db 0   ; Fill to 510 bytes
+times 510 - ($ - $$) db 0   ; Fill boot sector to 510 bytes (512 total with signature)
 dw 0xAA55                   ; Boot signature
