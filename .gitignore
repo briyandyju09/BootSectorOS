@@ -1,4 +1,8 @@
-# Assembled boot images / build artifacts
+# Build output
+build/
 *.bin
-*.o
 *.img
+*.o
+
+# Screenshot scratch
+*.ppm
